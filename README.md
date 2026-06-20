@@ -4,7 +4,6 @@
 ![Language](https://img.shields.io/badge/language-Kotlin-7F52FF?logo=kotlin&logoColor=white)
 ![Backend](https://img.shields.io/badge/backend-Firebase-FFCA28?logo=firebase&logoColor=white)
 ![Min SDK](https://img.shields.io/badge/min%20SDK-Android%208.0-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 A personal finance management app for Android that helps you track income and expenses, visualize spending trends, and stay on top of your budget — all from your phone.
 
@@ -101,10 +100,6 @@ Alternatively, install the pre-built APK directly: [Download APK](https://github
 ## Testing
 
 The application underwent functional testing across its core features (registration, login, transaction CRUD operations, sorting, and synchronization) to verify that actual behavior matched the defined requirements. All test cases passed successfully.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Developed by
 
