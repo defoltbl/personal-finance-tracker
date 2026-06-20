@@ -1,4 +1,4 @@
-# Task-Money-Help-Manager
+# Personal-Finance-Tracker
 
 ![Platform](https://img.shields.io/badge/platform-Android-3DDC84?logo=android&logoColor=white)
 ![Language](https://img.shields.io/badge/language-Kotlin-7F52FF?logo=kotlin&logoColor=white)
@@ -13,7 +13,7 @@ A personal finance management app for Android that helps you track income and ex
 
 ## Overview
 
-Task-Money-Help-Manager is a native Android application for everyday personal finance tracking. It lets users log income and expense transactions, review their financial history over any time period, and visualize the balance between money earned and money spent through built-in charts. The app was built with a focus on a clean, intuitive interface so that recording a transaction takes only a few taps.
+Personal-Finance-Tracker is a native Android application for everyday personal finance tracking. It lets users log income and expense transactions, review their financial history over any time period, and visualize the balance between money earned and money spent through built-in charts. The app was built with a focus on a clean, intuitive interface so that recording a transaction takes only a few taps.
 
 ## Features
 
