@@ -7,7 +7,9 @@
 
 A personal finance management app for Android that helps you track income and expenses, visualize spending trends, and stay on top of your budget — all from your phone.
 
-[**Download APK**](https://github.com/AndreyMaksimenko/Task-Money-Help-Manager/blob/master/app-debug.apk)
+[**Download APK**](https://github.com/defoltbl/personal-finance-tracker/blob/master/app-debug.apk)
+
+**Case study:** [andrii-maksymenko.com/projects/personal-finance-tracker](https://andrii-maksymenko.com/projects/personal-finance-tracker/) – the problem, the key decisions and diagrams of how it works.
 
 ---
 
@@ -64,6 +66,8 @@ The app follows an **MVVM (Model–View–ViewModel)** approach using Android's 
 
 Data is persisted and synced through **Firebase**, which also handles user authentication and file storage for profile pictures, removing the need for a custom backend.
 
+![Screens, Firebase and the data of one account](docs/pft_structure.png)
+
 ## Requirements
 
 **Functional**
@@ -87,7 +91,7 @@ Data is persisted and synced through **Firebase**, which also handles user authe
 ### Installation
 
 ```bash
-git clone https://github.com/AndreyMaksimenko/Task-Money-Help-Manager.git
+git clone https://github.com/defoltbl/personal-finance-tracker.git
 ```
 
 1. Open the project in Android Studio.
@@ -95,7 +99,7 @@ git clone https://github.com/AndreyMaksimenko/Task-Money-Help-Manager.git
 3. Sync Gradle and build the project.
 4. Run on an emulator or physical device (Android 8.0+).
 
-Alternatively, install the pre-built APK directly: [Download APK](https://github.com/AndreyMaksimenko/Task-Money-Help-Manager/blob/master/app-debug.apk).
+Alternatively, install the pre-built APK directly: [Download APK](https://github.com/defoltbl/personal-finance-tracker/blob/master/app-debug.apk).
 
 ## Testing
 
