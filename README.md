@@ -5,7 +5,7 @@
 ![Backend](https://img.shields.io/badge/backend-Firebase-FFCA28?logo=firebase&logoColor=white)
 ![Min SDK](https://img.shields.io/badge/min%20SDK-Android%208.0-blue)
 
-A personal finance management app for Android that helps you track income and expenses, visualize spending trends, and stay on top of your budget — all from your phone.
+A personal finance management app for Android that helps you track income and expenses, visualize spending trends, and stay on top of your budget – all from your phone.
 
 [**Download APK**](https://github.com/defoltbl/personal-finance-tracker/blob/master/app-debug.apk)
 
@@ -45,7 +45,7 @@ Personal-Finance-Tracker is a native Android application for everyday personal f
 | Language | Kotlin |
 | Backend / Database | Firebase (Realtime Database, Authentication, Storage) |
 | Authentication | Firebase Auth (email/password, Google OAuth 2.0) |
-| Architecture | Android Architecture Components (MVVM — ViewModel, LiveData) |
+| Architecture | Android Architecture Components (MVVM – ViewModel, LiveData) |
 | Navigation | Bottom chip-style navigation bar |
 | Platform | Android, minimum SDK level corresponding to Android 8.0 (Oreo) |
 
@@ -54,15 +54,15 @@ Personal-Finance-Tracker is a native Android application for everyday personal f
 The app follows an **MVVM (Model–View–ViewModel)** approach using Android's official architecture components, which keeps business logic separate from the UI layer and makes the codebase easier to test and maintain.
 
 **Key components:**
-- `AccountFragment.kt` — handles account-related UI (registration, login, profile)
-- `TransactionFragment.kt` — handles the transaction list (adding, editing entries)
-- `MainActivity.kt` — the app's main entry point
-- `Login.kt` / `SignUp.kt` — authentication flows, including input validation
-- `ForgotPassword.kt` — password recovery flow
-- `InsertionActivity.kt` — adding new transactions
-- `TransactionDetails.kt` — viewing, editing, and deleting a specific transaction
-- `TransactionAdapter.kt` — binds transaction data to list views
-- `TransactionModel.kt` — data model for a transaction
+- `AccountFragment.kt` – handles account-related UI (registration, login, profile)
+- `TransactionFragment.kt` – handles the transaction list (adding, editing entries)
+- `MainActivity.kt` – the app's main entry point
+- `Login.kt` / `SignUp.kt` – authentication flows, including input validation
+- `ForgotPassword.kt` – password recovery flow
+- `InsertionActivity.kt` – adding new transactions
+- `TransactionDetails.kt` – viewing, editing, and deleting a specific transaction
+- `TransactionAdapter.kt` – binds transaction data to list views
+- `TransactionModel.kt` – data model for a transaction
 
 Data is persisted and synced through **Firebase**, which also handles user authentication and file storage for profile pictures, removing the need for a custom backend.
 
